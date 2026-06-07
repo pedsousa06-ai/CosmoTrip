@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* ---- Cores ---- */
+    --color-white: #FFFFFF;
+    --color-l-black: #0F0F0F;
+    --color-black: #000000;
+    --color-d-gray: #4D4D4D;
+    --color-grey: #999999;
+    --color-pink: #FF3CAC;
+
+    /* Fontes */
+    --font-h1: 50px;
+    --font-h2: 45px;
+    --font-h3: 27px;
+    --font-h4: 21px;
+    --font-body1: 20px;
+    --font-body2: 18px;
+    --font-body3: 16px;
+    --font-body4: 14px;
+
+    --font-title: "Alexandria", sans-serif;
+    --font-body: "Inter", sans-serif;
+}
+
+p{
+    color: var(--color-grey);
+    font-family: var(--font-body);
+    font-size: var(--font-body2);
+}
+
+h2{
+    color: var(--color-white);
+    font-family: var(--font-title);
+    font-size: var(--font-h2);
+}
