@@ -458,3 +458,776 @@ footer{
 .footer-updates form button:hover{
     background-color: #a10073;
 }
+
+@media (max-width: 1024px) {
+ 
+    header {
+        justify-content: space-between;
+        padding: 20px 32px;
+    }
+ 
+    .nav-header ul {
+        gap: 24px;
+    }
+ 
+    main {
+        gap: 60px;
+        padding: 60px 32px;
+    }
+ 
+    h1 {
+        width: 100%;
+        font-size: clamp(1.8rem, 3.5vw, var(--font-h1));
+    }
+ 
+    main p {
+        width: 100%;
+    }
+ 
+    .content-destiny p {
+        width: 100%;
+        max-width: 572px;
+    }
+ 
+    .cards-destiny-container {
+        flex-wrap: wrap;
+        padding: 0 32px;
+    }
+ 
+    .card-destiny {
+        width: calc(50% - 10px);
+    }
+ 
+    .container-card-highlights {
+        flex-wrap: wrap;
+        padding: 0 32px;
+    }
+ 
+    .card-highlights {
+        width: calc(50% - 10px);
+    }
+ 
+    .container-reviews {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 32px;
+    }
+ 
+    .card-review p {
+        width: 100%;
+    }
+ 
+    .faq-item {
+        width: 90%;
+        max-width: 1138px;
+    }
+ 
+    footer {
+        padding: 60px 32px;
+        gap: 40px;
+    }
+ 
+    .footer-navigation {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+ 
+    .footer-updates form {
+        width: 100%;
+        max-width: 385px;
+    }
+ 
+    .section-statistics {
+        gap: 32px;
+        flex-wrap: wrap;
+        padding: 40px 32px;
+    }
+}
+ 
+ 
+/* ============================================================
+   BREAKPOINT: max-width: 768px
+   Tablets (768px × 1024px)
+   ============================================================ */
+@media (max-width: 768px) {
+ 
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 24px;
+    }
+ 
+    .nav-header ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+ 
+    .btn-header {
+        width: 100%;
+        text-align: center;
+    }
+ 
+    main {
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 24px;
+        text-align: center;
+    }
+ 
+    main .section-indicator {
+        align-self: center;
+    }
+ 
+    .content-main {
+        align-items: center;
+    }
+ 
+    h1 {
+        width: 100%;
+        font-size: clamp(1.6rem, 4vw, 2.4rem);
+    }
+ 
+    main p {
+        width: 100%;
+    }
+ 
+    .container-btn-main {
+        flex-direction: column;
+        width: 100%;
+    }
+ 
+    .btn-primary,
+    .btn-secondary {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+    }
+ 
+    main img {
+        max-width: 100%;
+        height: auto;
+    }
+ 
+    .section-statistics {
+        gap: 24px;
+        flex-wrap: wrap;
+        padding: 40px 24px;
+    }
+ 
+    .section-destiny {
+        gap: 40px;
+        padding: 40px 24px;
+    }
+ 
+    .content-destiny p {
+        width: 100%;
+    }
+ 
+    .cards-destiny-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+ 
+    .card-destiny {
+        width: 100%;
+        max-width: 400px;
+    }
+ 
+    .card-destiny img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 20px 20px 0 0;
+    }
+ 
+    .section-highlights {
+        padding: 40px 24px;
+        gap: 40px;
+    }
+ 
+    .container-card-highlights {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+ 
+    .card-highlights {
+        width: 100%;
+        max-width: 400px;
+        padding: 60px 24px;
+    }
+ 
+    .section-testimonials {
+        padding: 40px 24px;
+        gap: 40px;
+    }
+ 
+    .container-reviews {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0;
+    }
+ 
+    .card-review p {
+        width: 100%;
+    }
+ 
+    .section-faq {
+        padding: 40px 24px;
+        gap: 40px;
+    }
+ 
+    .faq-item {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 24px 20px;
+    }
+ 
+    .faq-item h3 {
+        font-size: clamp(0.85rem, 2.5vw, var(--font-h4));
+    }
+ 
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 24px;
+        gap: 40px;
+        text-align: center;
+    }
+ 
+    .footer-navigation {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        width: 100%;
+    }
+ 
+    .footer-navigation-item {
+        align-items: center;
+    }
+ 
+    .footer-nav ul {
+        align-items: center;
+    }
+ 
+    .footer-updates {
+        align-items: center;
+        width: 100%;
+    }
+ 
+    .footer-updates h2 {
+        width: 100%;
+        text-align: center;
+    }
+ 
+    .footer-updates form {
+        width: 100%;
+        max-width: 385px;
+    }
+}
+ 
+ 
+/* ============================================================
+   BREAKPOINT: max-width: 480px
+   Smartphones Médios (fallback entre 414px e 480px)
+   ============================================================ */
+@media (max-width: 480px) {
+ 
+    header {
+        padding: 16px 20px;
+        gap: 16px;
+    }
+ 
+    .nav-header ul {
+        gap: 12px;
+    }
+ 
+    .nav-header-item {
+        font-size: 0.85rem;
+    }
+ 
+    main {
+        padding: 32px 20px;
+        gap: 32px;
+    }
+ 
+    h1 {
+        font-size: clamp(1.5rem, 6vw, 2rem);
+    }
+ 
+    .section-statistics {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 32px 20px;
+    }
+ 
+    .section-destiny {
+        padding: 32px 20px;
+    }
+ 
+    .cards-destiny-container {
+        gap: 16px;
+    }
+ 
+    .card-destiny {
+        max-width: 100%;
+    }
+ 
+    .section-highlights {
+        padding: 32px 20px;
+    }
+ 
+    .container-card-highlights {
+        gap: 16px;
+    }
+ 
+    .card-highlights {
+        max-width: 100%;
+        padding: 40px 20px;
+    }
+ 
+    .section-testimonials {
+        padding: 32px 20px;
+    }
+ 
+    .container-reviews {
+        grid-template-columns: 1fr;
+    }
+ 
+    .section-faq {
+        padding: 32px 20px;
+    }
+ 
+    .faq-item {
+        padding: 20px 16px;
+    }
+ 
+    footer {
+        padding: 32px 20px;
+    }
+ 
+    .footer-updates form {
+        width: 100%;
+    }
+}
+ 
+ 
+/* ============================================================
+   BREAKPOINT: max-width: 414px
+   Smartphones Grandes / Phablets (414px × 896px)
+   ============================================================ */
+@media (max-width: 414px) {
+ 
+    header {
+        padding: 14px 16px;
+    }
+ 
+    .nav-header ul {
+        gap: 10px;
+    }
+ 
+    main {
+        padding: 28px 16px;
+    }
+ 
+    h1 {
+        font-size: clamp(1.4rem, 7vw, 1.8rem);
+    }
+ 
+    .section-indicator {
+        font-size: 0.75rem;
+        padding: 8px 10px;
+    }
+ 
+    .btn-primary,
+    .btn-secondary {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+ 
+    .section-statistics {
+        padding: 28px 16px;
+    }
+ 
+    .statistics-number {
+        font-size: clamp(1.5rem, 6vw, var(--font-h2));
+    }
+ 
+    .section-destiny {
+        padding: 28px 16px;
+    }
+ 
+    .section-highlights {
+        padding: 28px 16px;
+    }
+ 
+    .card-highlights {
+        padding: 36px 16px;
+    }
+ 
+    .section-testimonials {
+        padding: 28px 16px;
+    }
+ 
+    .card-review {
+        padding: 20px;
+    }
+ 
+    .section-faq {
+        padding: 28px 16px;
+    }
+ 
+    footer {
+        padding: 28px 16px;
+    }
+ 
+    .footer-updates form {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+ 
+ 
+/* ============================================================
+   BREAKPOINT: max-width: 390px
+   Smartphones Comuns — iPhone 14 (390px × 844px)
+   ============================================================ */
+@media (max-width: 390px) {
+ 
+    header {
+        padding: 12px 14px;
+        gap: 12px;
+    }
+ 
+    .nav-header ul {
+        gap: 8px;
+    }
+ 
+    .nav-header-item {
+        font-size: 0.8rem;
+    }
+ 
+    main {
+        padding: 24px 14px;
+        gap: 24px;
+    }
+ 
+    h1 {
+        font-size: clamp(1.3rem, 7.5vw, 1.7rem);
+    }
+ 
+    .section-statistics {
+        padding: 24px 14px;
+        gap: 16px;
+    }
+ 
+    .section-destiny {
+        padding: 24px 14px;
+        gap: 32px;
+    }
+ 
+    .card-destiny {
+        border-radius: 16px;
+    }
+ 
+    .section-highlights {
+        padding: 24px 14px;
+        gap: 32px;
+    }
+ 
+    .card-highlights {
+        padding: 32px 14px;
+        border-radius: 16px;
+    }
+ 
+    .section-testimonials {
+        padding: 24px 14px;
+        gap: 32px;
+    }
+ 
+    .card-review {
+        padding: 18px 14px;
+    }
+ 
+    .section-faq {
+        padding: 24px 14px;
+        gap: 32px;
+    }
+ 
+    .faq-item {
+        padding: 18px 14px;
+    }
+ 
+    footer {
+        padding: 24px 14px;
+        gap: 28px;
+    }
+}
+ 
+ 
+/* ============================================================
+   BREAKPOINT: max-width: 375px
+   Smartphones Comuns — iPhone SE/X (375px × 667px)
+   ============================================================ */
+@media (max-width: 375px) {
+ 
+    header {
+        padding: 10px 12px;
+        gap: 10px;
+    }
+ 
+    .nav-header ul {
+        gap: 6px;
+    }
+ 
+    .nav-header-item {
+        font-size: 0.78rem;
+    }
+ 
+    .btn-header {
+        padding: 8px 18px;
+        font-size: 0.85rem;
+    }
+ 
+    main {
+        padding: 20px 12px;
+        gap: 20px;
+    }
+ 
+    h1 {
+        font-size: clamp(1.25rem, 8vw, 1.6rem);
+    }
+ 
+    .container-btn-main {
+        gap: 12px;
+    }
+ 
+    .btn-primary,
+    .btn-secondary {
+        padding: 10px 16px;
+        font-size: 0.85rem;
+    }
+ 
+    .section-statistics {
+        padding: 20px 12px;
+        gap: 14px;
+    }
+ 
+    .statistics-number {
+        font-size: clamp(1.3rem, 7vw, 1.8rem);
+    }
+ 
+    .section-destiny {
+        padding: 20px 12px;
+        gap: 28px;
+    }
+ 
+    .section-highlights {
+        padding: 20px 12px;
+        gap: 28px;
+    }
+ 
+    .card-highlights {
+        padding: 28px 12px;
+    }
+ 
+    .section-testimonials {
+        padding: 20px 12px;
+        gap: 28px;
+    }
+ 
+    .section-faq {
+        padding: 20px 12px;
+        gap: 28px;
+    }
+ 
+    .faq-item {
+        padding: 16px 12px;
+    }
+ 
+    .faq-item h3 {
+        font-size: 0.82rem;
+    }
+ 
+    footer {
+        padding: 20px 12px;
+        gap: 24px;
+    }
+ 
+    .footer-updates form {
+        flex-direction: column;
+        gap: 12px;
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+ 
+    .footer-updates form input {
+        border-bottom: 0.5px solid var(--color-d-gray);
+        padding: 10px 2px;
+        width: 100%;
+    }
+ 
+    .footer-updates form button {
+        align-self: center;
+    }
+}
+ 
+ 
+/* ============================================================
+   BREAKPOINT: max-width: 360px
+   Smartphones Pequenos (360px × 640px)
+   ============================================================ */
+@media (max-width: 360px) {
+ 
+    header {
+        padding: 10px;
+        gap: 8px;
+    }
+ 
+    .nav-header ul {
+        gap: 6px;
+    }
+ 
+    .nav-header-item {
+        font-size: 0.75rem;
+    }
+ 
+    .btn-header {
+        padding: 7px 14px;
+        font-size: 0.8rem;
+    }
+ 
+    main {
+        padding: 18px 10px;
+        gap: 18px;
+    }
+ 
+    h1 {
+        font-size: clamp(1.15rem, 8.5vw, 1.5rem);
+        line-height: 1.3;
+    }
+ 
+    main p {
+        font-size: 0.85rem;
+    }
+ 
+    .section-indicator {
+        font-size: 0.7rem;
+        padding: 6px 8px;
+        gap: 5px;
+    }
+ 
+    .btn-primary,
+    .btn-secondary {
+        padding: 10px 14px;
+        font-size: 0.8rem;
+    }
+ 
+    .section-statistics {
+        padding: 18px 10px;
+        gap: 12px;
+    }
+ 
+    .statistics-number {
+        font-size: clamp(1.2rem, 8vw, 1.6rem);
+    }
+ 
+    .section-destiny {
+        padding: 18px 10px;
+        gap: 24px;
+    }
+ 
+    .card-destiny-informations {
+        padding: 14px;
+        gap: 14px;
+    }
+ 
+    .card-destiny-informations h3 {
+        font-size: 0.95rem;
+    }
+ 
+    .destiny-card-price {
+        font-size: 1rem;
+    }
+ 
+    .section-highlights {
+        padding: 18px 10px;
+        gap: 24px;
+    }
+ 
+    .card-highlights {
+        padding: 24px 10px;
+    }
+ 
+    .card-highlights h3 {
+        font-size: 0.95rem;
+    }
+ 
+    .section-testimonials {
+        padding: 18px 10px;
+        gap: 24px;
+    }
+ 
+    .card-review {
+        padding: 16px 12px;
+    }
+ 
+    .user-review h3 {
+        font-size: 0.85rem;
+    }
+ 
+    .section-faq {
+        padding: 18px 10px;
+        gap: 24px;
+    }
+ 
+    .faq-item {
+        padding: 14px 10px;
+    }
+ 
+    .faq-item h3 {
+        font-size: 0.78rem;
+    }
+ 
+    footer {
+        padding: 18px 10px;
+        gap: 20px;
+    }
+ 
+    .footer-navigation {
+        gap: 24px;
+    }
+ 
+    .footer-navigation-item h2 {
+        font-size: 0.85rem;
+    }
+ 
+    .footer-nav ul li a {
+        font-size: 0.8rem;
+    }
+ 
+    .footer-updates h2 {
+        font-size: 0.85rem;
+        width: 100%;
+    }
+ 
+    .footer-updates form {
+        flex-direction: column;
+        gap: 10px;
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+ 
+    .footer-updates form input {
+        border-bottom: 0.5px solid var(--color-d-gray);
+        padding: 10px 2px;
+        width: 100%;
+        font-size: 0.82rem;
+    }
+ 
+    .footer-updates form button {
+        align-self: center;
+    }
+}
