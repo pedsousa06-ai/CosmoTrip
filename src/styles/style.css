@@ -376,3 +376,85 @@ main p {
     color: var(--color-white);
     font-family: var(--font-title);
 }
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 0px;
+}
+
+.footer-navigation{
+    display: flex;
+    align-items: flex-start;    
+    gap: 60px;
+}
+
+.footer-navigation-item{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-navigation-item h2{
+    font-size: var(--font-body1);
+    font-family: var(--font-body);
+    font-weight: 400;
+}
+
+.footer-nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;   
+    list-style: none; 
+}
+
+.footer-nav ul li a{
+    text-decoration: none;
+    color: var(--color-grey);
+    font-family: var(--font-body);
+    font-size: var(--font-body2);
+}
+
+.footer-updates{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-updates h2{
+    font-size: var(--font-body1);
+    font-family: var(--font-body);
+    font-weight: 400;
+    width: 198px;
+}
+
+.footer-updates form{
+    display: flex;
+    justify-content: space-between;
+    width: 385px;  
+    border-bottom: 0.5px solid var(--color-d-gray);      
+    padding-bottom: 16px;
+}
+
+.footer-updates form input{
+    padding: 12px 2px;
+    background-color: transparent;
+    color: var(--color-white);   
+    font-size: var(--font-body2);  
+    outline: none; 
+}
+
+.footer-updates form button{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    background-color: var(--color-pink);    
+    border-radius: 100%;
+    padding: 11px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-updates form button:hover{
+    background-color: #a10073;
+}
