@@ -134,3 +134,24 @@ main p {
 .btn-secondary:hover{
     background-color: var(--color-d-gray);    
 }
+
+.section-statistics {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+    background-color: var(--color-l-black);
+    padding: 40px 0px;
+}
+
+.statistics-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.statistics-number {
+    color: var(--color-pink);
+    font-size: var(--font-h2);
+    font-family: var(--font-title);
+}
