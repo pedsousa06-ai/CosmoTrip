@@ -298,3 +298,45 @@ main p {
     font-family: var(--font-title);
     font-size: var(--font-h4);
 }
+
+.section-testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 60px;
+}
+
+.container-reviews{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card-review{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--color-l-black);
+    padding: 30px;
+    border-radius: 20px;    
+}
+
+.user-review{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.user-review h3{
+    color: var(--color-white);
+    font-family: var(--font-title);
+    font-size: var(--font-h4);
+}
+
+.card-review p{
+    color: var(--color-grey);
+    font-size: var(--font-body4);
+    width: 304px;
+    font-weight: 500;
+}
