@@ -155,3 +155,114 @@ main p {
     font-size: var(--font-h2);
     font-family: var(--font-title);
 }
+
+.section-destiny {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px 0px;
+}
+
+.content-destiny {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.content-destiny p {
+    width: 572px;
+}
+
+.card-destiny {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 364px;
+    background-color: var(--color-l-black);
+    border-radius: 20px;
+}
+
+.card-destiny-informations {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.card-destiny{
+    transition: 0.3s;
+}
+
+.card-destiny:hover{
+    transform: translate(0px, -10px);
+    box-shadow: 0px 0px 6px 0px var(--color-pink);
+}
+
+.card-destiny-informations h3 {
+    color: var(--color-white);
+    font-family: var(--font-body);
+    font-size: var(--font-h3);
+    text-align: center;
+}
+
+.destiny-reviews {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.destiny-reviews-stars {
+    display: flex;
+    gap: 5px;
+}
+
+.destiny-reviews-stars:hover{
+    transform: scale(1.1);
+}
+
+.destiny-reviews p {
+    font-size: var(--font-body4);
+}
+
+.destiny-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destiny-details-duration {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.destiny-details-duration p {
+    font-size: var(--font-body4);
+}
+
+.destiny-card-price {
+    font-family: var(--font-title);
+    color: var(--color-white);
+    font-weight: bold;
+    font-size: var(--font-h4);
+}
+
+.btn-book-now {
+    background-color: var(--color-pink);
+    padding: 10px 0px;
+    text-align: center;
+    color: var(--color-white);
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: var(--font-title);
+    font-weight: bold;
+    font-size: var(--font-body3);
+}
+
+.cards-destiny-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
